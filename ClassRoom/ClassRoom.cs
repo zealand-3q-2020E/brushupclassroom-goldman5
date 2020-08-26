@@ -9,13 +9,13 @@ namespace ClassRoom
     class ClassRoom
     {
         public string ClassName { get; set; }
-
         public List<Student> classList { get; set; }
         public DateTime SemesterStart { get; set; }
 
         public ClassRoom()
         {
-            
+            classList = new List<Student>();
         }
+        
     }
 }
